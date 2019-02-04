@@ -35,6 +35,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+
             <li class="nav-item">
               <a class="nav-link" href="index.html">Blog</a>
 			</li>
@@ -47,66 +48,38 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('img/blog-bg.jpg')">
+    <header class="masthead" style="background-image: url('img/post-bg.jpg')">
       <div class="overlay"></div>
       <div class="container	
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="page-heading">
-			<h1></h1>
-              <span class="subheading">Outside the Box Football Analytics</span>
+              <h1></h1>
             </div>
           </div>
         </div>
       </div>
     </header>
-	
-	    <!-- Main Content -->
-	    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-		  <div class="post02-preview">
-		  <a href ="week02recap.html">
-              <h2 class="post-title">Week 02: Kickoff</h2>
-				<p>Week two's recap, featuring colorful R graphs & more Russell Wilson stats.</p>
-            <p class="post-meta">Feb 4th.</p>
-			</a>
-          </div>
-        </div>
-      </div>
-    </div>
 
-	<hr>
-	
-    <!-- Main Content -->
-	    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-		  <div class="post-preview">
-              <h2 class="post-title">Seattle vs Kansas City Win Probability</h2>
-				<p>Using R I created a simple win probability graph of the Seattle/Kansas City game in Week 16.</p>
-				<img src="img/SEA.png">
-            <p class="post-meta">Jan 30th.</p>
-          </div>
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+			<h2 class ="section-heading">Week 02: Kickoff</p>
+				<p>In week two I begun to experiment using R to visually represent data. 
+					I based my testing on Russell Wilson, and used nflscrapR to scrape his 2018 season stats. 
+					Firstly, I plotted his pass ypg per week on a histogram & a the frequency of his passing performances.</p>
+				<img src="img/RussPassingYards.png" alt "RussPassingYards">
+				<img src="img/Histogram.png" alt ="RussYPGFreq">				
+				<p>I then experimented with modelling probability density of QB performances. Note that this graph is somewhat unfinished.</p>
+				<img src="img/ProbDensity.png" alt ="RussProbDens">
+				<h3>Next Week</h3>
+				<p>After the early experimentation in R I decided to further explore data visualisation. I plan to 
+				test multiple QBs from previous seasons by modelling some form of standard deviation of passing performances.</p>
         </div>
       </div>
-    </div>
-	
-	<hr> 
-	
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-		  <div class="post-preview">
-            <a href="post.html">
-              <h2 class="post-title">Week 01: Proposal Hand In & Project Diary Website</h2>
-				<h3 class="post-subtitle">Week One saw the first deadline of the project, the Project Proposal document.</h3>
-            </a>
-            <p class="post-meta">Jan 21st.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </article>
 
     <hr>
 
